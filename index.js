@@ -4,3 +4,6 @@ function increment() {
     count  = count + 1
     ele.innerText = count
 }
+function save() {
+    console.log(count)
+}
